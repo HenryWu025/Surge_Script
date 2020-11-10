@@ -1,0 +1,8 @@
+#!name=Lightroom VIP
+#!desc=Unlock Lightroom VIP
+
+[Script]
+# > Lightroom
+Lightroom.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/Lightroom.js,script-update-interval=0,type=http-response,pattern=^https:\/\/photos\.adobe\.io\/v2\/accounts
+[MITM] 
+hostname = %APPEND% photos.adobe.io
