@@ -1,0 +1,9 @@
+#!name=VUE PRO
+#!desc=Unlock VUE PRO
+
+
+[Script]
+# VUE pro
+VUE.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/VUE.js,type=http-response,pattern=^https:\/\/api\.vuevideo\.net\/api\/v1\/(users\/.+\/profile|subtitle\/prepare)
+[MITM] 
+hostname = %APPEND% api.vuevideo.
