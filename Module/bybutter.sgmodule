@@ -2,6 +2,6 @@
 #!desc=解锁黄油相机PRO
 
 [Script]
-http-response https?:\/\/.*\.bybutter\.com\/(v4\/shop\/|v4\/users\/me|v4\/shop\/shelves|v4\/editor\/template\/recommended|v4\/search\/products|v4\/template-square\/) requires-body=1,script-path=https://raw.githubusercontent.com/HenryWu025/Surge_Script/main/JS/bybutter2.js, tag=黄油相机PRO
+http-response https?:\/\/.*\.bybutter\.com\/(v4\/shop\/|v4\/users\/me|v4\/shop\/shelves|v4\/editor\/template\/recommended|v4\/search\/products|v4\/template-square\/) requires-body=1,script-path=https://raw.githubusercontent.com/HenryWu025/Surge_Script/main/JS/bybutter.js, tag=黄油相机PRO
 [MITM] 
 hostname = %APPEND% *.bybutter.com
